@@ -1,3 +1,7 @@
 fun main(args: Array<String>) {
-    println("Hello World!")
+    val start = ArсhiveActions()
+    while (true) {
+        start.showMenu()
+        start.selectMenu()
+    }
 }
